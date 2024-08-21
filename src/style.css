@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Vicwant';
+    src: url('./assets/fonts/static/EduVICWANTBeginner-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vicwant';
+    src: url('./assets/fonts/static/EduVICWANTBeginner-Medium.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vicwant';
+    src: url('./assets/fonts/static/EduVICWANTBeginner-SemiBold.ttf') format('truetype');
+    font-weight: semibold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vicwant';
+    src: url('./assets/fonts/static/EduVICWANTBeginner-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: url('./assets/fonts/dancing/static/DancingScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: url('./assets/fonts/dancing/static/DancingScript-Medium.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: url('./assets/fonts/dancing/static/DancingScript-SemiBold.ttf') format('truetype');
+    font-weight: semibold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: url('./assets/fonts/dancing/static/DancingScript-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-family: 'Vicwant', sans-serif;
+}
+
+.font-vicwant {
+    font-family: 'Vicwant', sans-serif;
+}
+
+.font-dancing {
+    font-family: 'Dancing', sans-serif;
+}
