@@ -169,7 +169,10 @@
             <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
             <div class="flex flex-col justify-center items-center gap-5 px-10 py-5">
                 <h1 class="text-2xl font-bold font-dancing text-center">Galeri Kami</h1>
-                <swiper :slides-per-view="1" :space-between="10">
+            </div>
+
+            <div class="swiper-container">
+                <swiper :slides-per-view="1">
                     <swiper-slide><img src="../assets/images/foto1.jpg" alt="" /></swiper-slide>
                     <swiper-slide><img src="../assets/images/foto2.jpg" alt="" /></swiper-slide>
                     <swiper-slide><img src="../assets/images/foto3.jpg" alt="" /></swiper-slide>
