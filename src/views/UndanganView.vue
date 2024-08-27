@@ -90,22 +90,22 @@
 </script>
 
 <template>
-    <div class="flex flex-col min-h-[100vh] bg-[#C9BEB7] lg:w-96">
+    <div class="flex flex-col min-h-[100vh] bg-[#C9BEB7]">
         <div class="flex flex-col justify-center items-center min-h-[100vh] section">
-            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
             <div class="flex flex-col justify-center items-center px-10 py-5 w-100 md:w-10">
-                <img src="../assets/images/married.svg" alt="" class="w-[70%]">
+                <img src="../assets/images/married.svg" alt="" class="w-[70%] sm:w-[40%] md:w-[30%] lg:w-[30%] xl:w-[20%]">
             </div>
     
             <div class="flex flex-col justify-center items-center px-10 py-5">
                 <p class="text-center">"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."</p>
                 <p> (QS Ar-Rum:21)</p>
             </div>
-            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
         </div>
 
         <div class="flex flex-col justify-center items-center min-h-[100vh] border-t-2 section">
-            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
             <div class="flex flex-col justify-center items-center gap-5 px-10 py-5">
                 <h1 class="text-2xl font-bold font-dancing text-center">Assalamu'alaikum Warahmatullahi Wabarakatuh</h1>
                 <p class="text-center">Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud menyelenggarakan acara pernikahan putra-putri kami:</p>
@@ -134,11 +134,11 @@
                     <small>Putra dari Bapak Syahada dan Ibu Masdiana</small>
                 </div>
             </div>
-            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
         </div>
 
         <div class="flex flex-col justify-center items-center min-h-[100vh] border-t-2 section">
-            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
             <div class="flex flex-col justify-center items-center px-10 py-10">
                 <small>yang akan di selenggarakan pada:</small>
             </div>
@@ -162,27 +162,27 @@
             <div class="flex flex-col justify-center items-center px-10 py-10">
                 <p class="text-center">Binuang 1, kelurahan Amassangan, kecamatan Binuang, kabupaten Polewali Mandar, Jln. Poros Pinrang Polewali</p>
             </div>
-            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
         </div>
 
         <div class="flex flex-col justify-center items-center min-h-[100vh] border-t-2 section">
-            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
             <div class="flex flex-col justify-center items-center gap-5 px-10 py-5">
                 <h1 class="text-2xl font-bold font-dancing text-center">Galeri Kami</h1>
             </div>
 
-            <div class="swiper-container">
-                <swiper :slides-per-view="1">
+            <div class="w-[70%] sm:w-[50%] md:w-[40%] lg:w-[30%] xl:w-[20%]">
+                <swiper :slides-per-view="1" :space-between="10">
                     <swiper-slide><img src="../assets/images/foto1.jpg" alt="" /></swiper-slide>
                     <swiper-slide><img src="../assets/images/foto2.jpg" alt="" /></swiper-slide>
                     <swiper-slide><img src="../assets/images/foto3.jpg" alt="" /></swiper-slide>
                 </swiper>
             </div>
-            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
         </div>
 
         <div class="flex flex-col justify-center items-center min-h-[100vh] border-t-2 section">
-            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
             <div class="flex flex-col justify-center items-center px-5 py-10">
                 <p class="text-center">Suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu bagi putra putri kami.</p>
             </div>
@@ -193,12 +193,12 @@
                     {{ countdown.days }} days, {{ countdown.hours }} hours, {{ countdown.minutes }} minutes, {{ countdown.seconds }} seconds
                 </p>
             </div>
-            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
         </div>
 
         <div class="flex flex-col justify-center items-center min-h-[100vh] border-t-2 section">
-            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
-            <div class="flex flex-col justify-center items-center gap-5 px-10 py-5 w-full">
+            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
+            <div class="flex flex-col justify-center items-center gap-5 px-10 py-5 w-full sm:w-96 md:w-96 lg:w-96 xl:w-96">
                 <h1 class="text-2xl font-bold font-dancing text-center">GIFT</h1>
                 <div class="flex flex-row bg-white w-full px-6 py-5 rounded-lg">
                     <div class="flex flex-col justify-center items-start gap-7">
@@ -213,7 +213,7 @@
                     </div>
                 </div>
             </div>
-            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[30%]">
+            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
         </div>
 
         <div class="fixed mx-5 my-5 right-0 bottom-0 text-white">
@@ -227,10 +227,5 @@
 <style scoped>
     .section {
         position: relative;
-    }
-
-    .swiper-container {
-        width: 70%;
-        height: 100%;
     }
 </style>
