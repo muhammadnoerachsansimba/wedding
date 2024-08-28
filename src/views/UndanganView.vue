@@ -131,7 +131,7 @@
                         <h1 class="font-dancing font-bold text-6xl text-left text-[#9A6A2D]">Isna</h1>
                         <p class="font-bold text-right text-[#9A6A2D]">Isna Asra, S.Pd</p>
                     </div>
-                    <small>Putra dari Bapak Syahada dan Ibu Masdiana</small>
+                    <small>Putri dari Bapak Syahada dan Ibu Masdiana</small>
                 </div>
             </div>
             <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
@@ -173,9 +173,10 @@
 
             <div class="w-[70%] sm:w-[50%] md:w-[40%] lg:w-[30%] xl:w-[20%]">
                 <swiper :slides-per-view="1" :space-between="10">
-                    <swiper-slide><img src="../assets/images/foto1.jpg" alt="" /></swiper-slide>
-                    <swiper-slide><img src="../assets/images/foto2.jpg" alt="" /></swiper-slide>
+                    <swiper-slide><img src="../assets/images/foto4.jpg" alt="" /></swiper-slide>
                     <swiper-slide><img src="../assets/images/foto3.jpg" alt="" /></swiper-slide>
+                    <swiper-slide><img src="../assets/images/foto2.jpg" alt="" /></swiper-slide>
+                    <swiper-slide><img src="../assets/images/foto1.jpg" alt="" /></swiper-slide>
                 </swiper>
             </div>
             <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
