@@ -45,13 +45,13 @@
         // console.log('Window scrolled', scrollPosition.value);
     };
 
-    const copyToClipboard = (text: string) => {
-        navigator.clipboard.writeText(text).then(() => {
-            alert('Text copied to clipboard');
-        }).catch(err => {
-            console.error('Failed to copy text: ', err);
-        });
-    };
+    // const copyToClipboard = (text: string) => {
+    //     navigator.clipboard.writeText(text).then(() => {
+    //         alert('Text copied to clipboard');
+    //     }).catch(err => {
+    //         console.error('Failed to copy text: ', err);
+    //     });
+    // };
 
     onBeforeRouteLeave((_to, _from, next) => {
         // Pause audio when leaving the page
