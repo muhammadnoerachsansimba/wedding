@@ -181,22 +181,7 @@
             </div>
             <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
         </div>
-
-        <div class="flex flex-col justify-center items-center min-h-[100vh] border-t-2 section">
-            <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
-            <div class="flex flex-col justify-center items-center px-5 py-10">
-                <p class="text-center">Suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu bagi putra putri kami.</p>
-            </div>
-
-            <div class="flex flex-col justify-center items-center px-5 py-10">
-                <h2 class="text-2xl font-bold">Segera:</h2>
-                <p class="text-center">
-                    {{ countdown.days }} days, {{ countdown.hours }} hours, {{ countdown.minutes }} minutes, {{ countdown.seconds }} seconds
-                </p>
-            </div>
-            <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
-        </div>
-
+        
         <!-- <div class="flex flex-col justify-center items-center min-h-[100vh] border-t-2 section">
             <img src="../assets/images/flower_top.png" alt="" class="absolute top-0 right-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
             <div class="flex flex-col justify-center items-center gap-5 px-10 py-5 w-full sm:w-96 md:w-96 lg:w-96 xl:w-96">
@@ -216,7 +201,7 @@
             </div>
             <img src="../assets/images/flower_bottom.png" alt="" class="absolute bottom-0 left-0 w-[30%] sm:w-[20%] md:w-[15%] lg:w-[15%] xl:w-[10%]">
         </div> -->
-
+        
         <div class="fixed mx-5 my-5 right-0 bottom-0 text-white">
             <button @click="toggleAudio" class="bg-[#9A6A2D] w-10 h-10 rounded-full">
                 <font-awesome-icon :icon="isPlaying ? ['fas', 'pause'] : ['fas', 'play']" />
